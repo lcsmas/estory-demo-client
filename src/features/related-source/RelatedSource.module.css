@@ -1,0 +1,99 @@
+.container {
+  width: 600px;
+  height: 70%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eee;
+}
+
+.titleContainer {
+  height: 50px;
+  background-color: #208775;
+  color: white;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.searchBarContainer {
+  display: flex;
+  height: 45px;
+  margin: 5px 10px 10px 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  border: solid 1.5px #d3d3d3;
+}
+.searchBarContainer > * {
+  height: 40px;
+}
+.searchButton {
+  font-size: 24px;
+  color: rgb(82, 79, 79);
+  border: none;
+  border-left: solid 1px #eee;
+  padding-left: 10px;
+  background-color: white;
+  transition: 150ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.searchButton:hover {
+  font-size: 32px;
+}
+.searchButton:focus {
+  outline-width: 0px;
+}
+.searchText {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  flex-grow: 1;
+  border: none;
+  font-family: 'Amazon Ember', Arial, sans-serif;
+  color: rgb(37, 37, 37);
+  transition: 25ms;
+}
+.searchBarContainer:hover {
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3;
+}
+.searchText:focus {
+  outline-width: 0px;
+}
+.searchBarContainer:focus {
+  box-shadow: 0 0 5pt 2pt #d3d3d3;
+}
+
+.itemListContainer {
+  overflow-y: auto;
+  height: 550px;
+  padding-top: 5px;
+}
+
+.itemListContainer::-webkit-scrollbar {
+  width: 7px;
+  height: 8px;
+  background-color: rgba(170, 170, 170, 0);
+}
+
+.itemListContainer::-webkit-scrollbar-thumb {
+  /* background: #2e8879; */
+  background: rgb(105, 105, 105);
+  border-radius: 10px;
+}
+
+.separator {
+  background-color: #eee;
+  border: 0 none;
+  color: #eee;
+  height: 1px;
+  margin-left: 10px;
+}

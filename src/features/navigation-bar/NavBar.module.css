@@ -1,0 +1,58 @@
+.navbar {
+  padding: 0 25px 0;
+  background-color: #011222;
+  height: 65px;
+  display: grid;
+}
+
+.logo {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  grid-column: span 2;
+}
+
+.navBarButton {
+  background-color: #011222;
+  display: block;
+  padding-top: 20px;
+  color: white;
+}
+
+.selected {
+  background-color: #208775;
+}
+
+@media (min-width: 1544px) {
+  .navbar {
+    grid-template-columns: repeat(26, 1fr);
+  }
+}
+
+@media (max-width: 1544px) {
+  .navbar {
+    grid-template-columns: repeat(20, 1fr);
+  }
+}
+
+@media (max-width: 1177px) {
+  .navbar {
+    grid-template-columns: repeat(15, 1fr);
+  }
+}
+
+@media (max-width: 871px) {
+  .navbar {
+    grid-template-columns: repeat(10, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.navBarButtonSelected {
+  background-color: #208775;
+}

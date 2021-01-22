@@ -1,0 +1,22 @@
+.card {
+  display: grid;
+}
+
+.cardPicture {
+  grid-row: 1;
+}
+
+.cardTitle {
+  color: #208775;
+  font-weight: bold;
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+.cardDescription {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}

@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  max-width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px 0px 10px 0px;
+  transition: 100ms;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container:hover {
+  box-shadow: 0 0 3pt 2pt #208775;
+  border-radius: 2px;
+  background-color: #83c7bc;
+  cursor: pointer;
+}
+
+.image {
+  max-width: 180px;
+  min-width: 180px;
+  max-height: 150px;
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Amazon Ember', Arial, sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 10px 0px 10px;
+}
+
+.firstRow {
+  font-size: 13px;
+  color: #565959 !important;
+}
+.firstRow > a {
+  color: currentColor;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0f1111 !important;
+}

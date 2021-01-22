@@ -1,0 +1,20 @@
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 200px auto;
+  background-color: #208775;
+
+  animation: spining-reverse 2s infinite;
+}
+
+@keyframes spining-reverse {
+  0% {
+    transform: rotate(0turn);
+  }
+  50% {
+    transform: rotate(1turn);
+  }
+  100% {
+    transform: rotate(0turn);
+  }
+}

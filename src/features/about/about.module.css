@@ -1,0 +1,137 @@
+@media screen and (max-width: 866px) {
+  .aboutContainer {
+    padding: 35px 10px 20px;
+  }
+}
+
+@media screen and (min-width: 866px) {
+  .aboutContainer {
+    padding: 20px 50px 20px;
+  }
+}
+
+.aboutContainer {
+  height: 100%;
+  margin: 0 310px 0;
+  display: grid;
+}
+
+.heading {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.headingText {
+  color: #333;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 34px;
+  font-weight: lighter;
+  line-height: 1.1;
+  box-sizing: border-box;
+}
+
+.ourTeam {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ourTeamText {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: lighter;
+  line-height: 1.1;
+  grid-column: span 3;
+  padding-bottom: 50px;
+}
+
+.what {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.whatTitle {
+  grid-column: span 10;
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.whatDesc {
+  font-size: 16px;
+  line-height: 28px;
+  grid-column-start: 3;
+  grid-column-end: 9;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 40px;
+}
+
+.once {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 400px 80px;
+  column-gap: 50px;
+}
+
+.onceText {
+  font-size: 36px;
+  text-align: start;
+}
+
+.onceTextTitle {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.onceTextDesc {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.oncecharts {
+  display: grid;
+  text-align: start;
+}
+
+.onceChartQuote {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 0 10px;
+}
+
+.onceChartQuoteAuthor {
+  font-size: 14px;
+}
+
+.progressBar {
+  background-color: #011222 !important;
+  text-align: right !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  padding-right: 12px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
